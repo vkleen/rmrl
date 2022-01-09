@@ -7,6 +7,9 @@ license = "GPLv3"
 repository = "https://github.com/rschroll/rmrl"
 readme = "README.md"
 
+[tool.poetry.scripts]
+rmrl = "rmrl.__main__:main"
+
 [tool.poetry.dependencies]
 python = "^3.7"
 pdfrw = "^0.4"
